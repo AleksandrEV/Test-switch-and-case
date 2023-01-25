@@ -21,14 +21,17 @@ function color(obj) {
    switch (obj.value) {
       case 'Черный': 
          tegh1.style.color = 'black';
+         tegh1.style.backgroundColor = 'white';
          break;
 
       case 'Зеленый':
          tegh1.style.color = 'green';
+         tegh1.style.backgroundColor = 'white';
          break;
 
       case 'Красный': 
-         tegh1.style.color = 'red';;
+         tegh1.style.color = 'red';
+         tegh1.style.backgroundColor = 'white';
          break;
 
       case 'Белый': 
